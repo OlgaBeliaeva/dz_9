@@ -1,13 +1,14 @@
 import React from 'react';
-import DynamicForm from './components/DynamicForm';
+import DynamicForm from './components/NewDynamicForm';
 import './App.css';
+
 
 function App() {
   return (
-    <div >
-     
-    </div>
+    <div className="App">
+   
+    <DynamicForm />
+  </div>
   );
 }
-
 export default App;
